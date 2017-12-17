@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"module.exports = {\n  getOne: function () {\n    return new Promise((resolve, reject) => {\n      fetch('http://api.icndb.com/jokes/random')\n        .then(res => res.json())\n        .then(data => {\n          resolve(data.value.joke);\n        })\n    })\n\n  }\n}"},"hash":"56b6ecae9632e3050ee4d8e51978f85b"}
