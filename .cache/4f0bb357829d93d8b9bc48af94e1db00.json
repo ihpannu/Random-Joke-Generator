@@ -1,1 +1,1 @@
-{"dependencies":[{"name":"./jokes","loc":{"line":1,"column":22}}],"generated":{"js":"const jokes = require('./jokes');\n\njokes.getOne()\n  .then(joke => {\n    document.getElementById('joke').innerHTML = joke;\n  });"},"hash":"20a31e021713bc9fc5c7ed240d7e1644"}
+{"dependencies":[{"name":"./jokes","loc":{"line":1,"column":20}}],"generated":{"js":"\"use strict\";\n\nvar _jokes = require(\"./jokes\");\n\n_jokes.jokes.getOne().then(joke => {\n  document.getElementById('joke').innerHTML = joke;\n});"},"hash":"360a240efff674758702a05733ff253a"}
